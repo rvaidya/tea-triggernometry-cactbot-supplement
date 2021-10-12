@@ -246,11 +246,13 @@
                       </Trigger>
                       <Trigger Enabled="true" Name="DPS Restraining Order" Id="687363e3-9c20-4061-9d5a-e2f7199b6c40" RegularExpression="You suffer the effect of Restraining Order">
                         <Actions>
-                          <Action OrderNumber="1" UseTTSTextExpression="CC Edge" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                          <Action OrderNumber="1" UseTTSTextExpression="CC Close Edge" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                           <Action OrderNumber="2" VariableName="temporalstasis" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -265,11 +267,13 @@
                     <Triggers>
                       <Trigger Enabled="true" Name="Tank/Healer House Arrest" Id="eb6f775c-85c4-4cac-a496-bfafd563c86b" RegularExpression="You suffer the effect of House Arrest">
                         <Actions>
-                          <Action OrderNumber="1" UseTTSTextExpression="North Left Add" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                          <Action OrderNumber="1" UseTTSTextExpression="North on BJ" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                           <Action OrderNumber="2" VariableName="temporalstasis" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -282,11 +286,13 @@
                       </Trigger>
                       <Trigger Enabled="true" Name="Tank/Healer No Buff" Id="3d43b42d-678c-48a2-9f1d-7de9ef9fe288" RegularExpression="Alexander Prime readies Temporal Stasis">
                         <Actions>
-                          <Action OrderNumber="1" UseTTSTextExpression="North Right Add" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                          <Action OrderNumber="1" UseTTSTextExpression="North on CC" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                           <Action OrderNumber="2" VariableName="temporalstasis" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -299,11 +305,13 @@
                       </Trigger>
                       <Trigger Enabled="true" Name="Tank/Healer Restraining Order" Id="50171834-703a-43d1-828f-4112a8bc0c30" RegularExpression="You suffer the effect of Restraining Order">
                         <Actions>
-                          <Action OrderNumber="1" UseTTSTextExpression="West Edge" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                          <Action OrderNumber="1" UseTTSTextExpression="BJ Far Edge" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                           <Action OrderNumber="2" VariableName="temporalstasis" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -320,11 +328,13 @@
                 <Triggers>
                   <Trigger Enabled="true" Name="Aggravated Assault" Id="de6eaeff-16d4-4eee-a57f-e5fef5c68105" RegularExpression="You suffer the effect of Aggravated Assault">
                     <Actions>
-                      <Action OrderNumber="1" UseTTSTextExpression="BJ Outside" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
+                      <Action OrderNumber="1" UseTTSTextExpression="BJ Far Edge" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="UseTTS">
                         <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" VariableName="temporalstasis" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
